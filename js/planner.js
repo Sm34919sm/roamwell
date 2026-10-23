@@ -158,7 +158,7 @@
         const startCost = (destination.costs.budget.transport + destination.costs.budget.local
           + minFood + destination.costs.budget.activities) * 1.1;
         return `<article class="destination-card">
-          <div class="destination-art art-${escapeHtml(destination.color)}"><span class="destination-art-icon" aria-hidden="true">${escapeHtml(destination.icon)}</span><span class="destination-region">${escapeHtml(destination.region)}</span></div>
+          <div class="destination-art"><img src="${escapeHtml(destination.photo.src)}" alt="${escapeHtml(destination.photo.alt)}" loading="lazy" decoding="async"><span class="destination-region">${escapeHtml(destination.region)}</span><span class="destination-photo-credit">Photo: <a href="${escapeHtml(destination.photo.source)}" target="_blank" rel="noopener noreferrer">${escapeHtml(destination.photo.credit)}</a></span></div>
           <div class="destination-card-body"><div class="destination-meta"><span>${escapeHtml(destination.state)}</span><span>·</span><span>${escapeHtml(destination.idealDuration)}</span></div>
             <h2>${escapeHtml(destination.name)}</h2><p>${escapeHtml(destination.summary)}</p>
             <div class="highlight-tags">${destination.highlights.map((highlight) => `<span>${escapeHtml(highlight)}</span>`).join("")}</div>
