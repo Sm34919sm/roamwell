@@ -120,6 +120,7 @@ window.ROAMWELL_DESTINATIONS = [
   {
     id: "mumbai", name: "Mumbai", state: "Maharashtra", region: "Konkan Coast", style: "city", theme: "city",
     styles: ["city", "heritage", "food", "shopping"], icon: "⌂", color: "mumbai",
+    photo: { src: "./assets/destinations/mumbai.jpg", alt: "Marine Drive and Mumbai's waterfront at dusk", credit: "A. Savin", source: "https://commons.wikimedia.org/wiki/File:Mumbai_03-2016_46_evening_at_Marine_Drive.jpg", license: "Free Art License" },
     summary: "Sea-facing promenades, Art Deco streets, neighborhood cafés, and late-night energy.",
     highlights: ["Marine Drive", "Kala Ghoda", "Colaba Causeway"],
     bestSeason: "November–February", idealDuration: "3 days", area: "Fort, Colaba & South Mumbai",
@@ -160,6 +161,7 @@ window.ROAMWELL_DESTINATIONS = [
   {
     id: "pune", name: "Pune", state: "Maharashtra", region: "Western Maharashtra", style: "heritage", theme: "city",
     styles: ["city", "heritage", "spiritual"], icon: "▤", color: "mumbai",
+    photo: { src: "./assets/destinations/pune.jpg", alt: "Stone gateway and facade of Shaniwar Wada in Pune", credit: "Samrudhi shelagaonkar", source: "https://commons.wikimedia.org/wiki/File:Shaniwar_wada_(pune).jpg", license: "CC BY-SA 4.0" },
     summary: "A compact heritage escape through old peths, hilltop views, and Pune’s lively food streets.",
     highlights: ["Shaniwar Wada", "Aga Khan Palace", "Raja Dinkar Kelkar Museum"],
     bestSeason: "October–February", idealDuration: "1–3 days", area: "Shivajinagar & central Pune",
@@ -200,6 +202,7 @@ window.ROAMWELL_DESTINATIONS = [
   {
     id: "lonavala", name: "Lonavala", state: "Maharashtra", region: "Sahyadri Hills", style: "hills", theme: "hills",
     styles: ["hills", "adventure"], icon: "△", color: "munnar",
+    photo: { src: "./assets/destinations/lonavala.jpg", alt: "Green hills and a valley along the road to Lonavala", credit: "Neerajks7690", source: "https://commons.wikimedia.org/wiki/File:Pune_to_lonavala_scenic_beauty.jpg", license: "CC BY-SA 4.0" },
     summary: "Waterfalls, hill forts, and big Sahyadri views on an easy-paced hill-country break.",
     highlights: ["Karla Caves", "Lohagad Fort", "Tiger’s Leap"],
     bestSeason: "June–February", idealDuration: "1–3 days", area: "Lonavala town & Malavli",
@@ -238,6 +241,7 @@ window.ROAMWELL_DESTINATIONS = [
   {
     id: "mahabaleshwar", name: "Mahabaleshwar", state: "Maharashtra", region: "Sahyadri Hills", style: "hills", theme: "hills",
     styles: ["hills", "adventure"], icon: "♧", color: "munnar",
+    photo: { src: "./assets/destinations/mahabaleshwar.jpg", alt: "A broad view across the Mahabaleshwar valley", credit: "Aalokmjoshi", source: "https://commons.wikimedia.org/wiki/File:Mahabaleshwar_valley.jpg", license: "CC BY-SA 4.0" },
     summary: "Forest roads, strawberry country, and breezy viewpoints above the Krishna valley.",
     highlights: ["Venna Lake", "Arthur’s Seat", "Pratapgad Fort"],
     bestSeason: "October–June", idealDuration: "1–3 days", area: "Mahabaleshwar market & old town",
@@ -277,6 +281,7 @@ window.ROAMWELL_DESTINATIONS = [
   {
     id: "nashik", name: "Nashik", state: "Maharashtra", region: "North Maharashtra", style: "heritage", theme: "heritage",
     styles: ["heritage", "spiritual"], icon: "☼", color: "goa",
+    photo: { src: "./assets/destinations/nashik.jpg", alt: "Rows of green vines at Sula Vineyards near Nashik", credit: "Wikieditor11221", source: "https://commons.wikimedia.org/wiki/File:Sula_Vineyards_in_Nashik.jpg", license: "CC BY-SA 4.0" },
     summary: "Sacred riverfronts, cave-carved history, and vineyards set among the hills.",
     highlights: ["Panchavati & Ramkund", "Pandavleni Caves", "Sula Vineyards"],
     bestSeason: "October–February", idealDuration: "1–3 days", area: "Panchavati & central Nashik",
@@ -317,6 +322,7 @@ window.ROAMWELL_DESTINATIONS = [
   {
     id: "alibaug", name: "Alibaug", state: "Maharashtra", region: "Konkan Coast", style: "beach", theme: "coast",
     styles: ["beach", "heritage"], icon: "⌁", color: "goa",
+    photo: { src: "./assets/destinations/alibaug.jpg", alt: "Sunset over Alibaug Beach on the Konkan coast", credit: "Rishi Darak", source: "https://commons.wikimedia.org/wiki/File:Alibaug_Beach.jpg", license: "CC BY-SA 4.0" },
     summary: "A breezy Konkan break with a sea fort, coconut-lined beaches, and coastal food.",
     highlights: ["Kolaba Fort", "Alibaug Beach", "Kihim Beach"],
     bestSeason: "November–February", idealDuration: "1–3 days", area: "Alibaug town & nearby beaches",
