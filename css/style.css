@@ -195,13 +195,13 @@ h1, h2, h3, h4 { color: var(--ink); font-family: var(--font-heading); letter-spa
 .filter-chip:hover, .filter-chip.is-selected { border-color: var(--green); background: var(--green-pale); color: var(--green); }
 .destination-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
 .destination-card { overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: 0 5px 18px rgba(35,59,43,.025); }
-.destination-art { position: relative; display: grid; height: 160px; overflow: hidden; place-items: center; background: linear-gradient(145deg, #dce9df, #a8c5b1); }
-.destination-art::before, .destination-art::after { position: absolute; border-radius: 50%; content: ""; }
-.destination-art::before { top: 21%; right: 14%; width: 54px; height: 54px; background: rgba(255,222,165,.83); }
-.destination-art::after { right: -8%; bottom: -95px; left: -8%; height: 165px; border-radius: 50% 50% 0 0; background: linear-gradient(140deg, rgba(63,125,103,.75), rgba(45,94,77,.88)); }
-.destination-art-icon { position: relative; z-index: 1; display: grid; width: 73px; height: 73px; place-items: center; border: 1px solid rgba(255,255,255,.68); border-radius: 50%; background: rgba(255,255,255,.47); color: #38684f; font-size: 32px; backdrop-filter: blur(6px); }
+.destination-art { position: relative; height: 160px; overflow: hidden; background: #dce9df; isolation: isolate; }
+.destination-art img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.destination-art::after { position: absolute; z-index: 0; inset: 48% 0 0; background: linear-gradient(transparent, rgba(13,30,25,.68)); content: ""; }
 .destination-region { position: absolute; z-index: 2; bottom: 12px; left: 16px; color: white; font-size: 10px; font-weight: 700; letter-spacing: 1.1px; text-transform: uppercase; }
-.art-goa { background: linear-gradient(150deg, #d5e8e5, #98c8bd 55%, #e2c59b); }.art-gokarna { background: linear-gradient(145deg, #d7e7e2, #91c1bd 53%, #e5bd90); }.art-varkala { background: linear-gradient(145deg, #cfe3e9, #9cc4c5 55%, #efc397); }.art-manali { background: linear-gradient(145deg, #dce8e8, #adc4ba 52%, #819c89); }.art-munnar { background: linear-gradient(145deg, #d9e8cd, #9dbf91 58%, #658d68); }.art-rishikesh { background: linear-gradient(145deg, #d7e7e5, #9dbbb1 56%, #769e88); }.art-jaipur { background: linear-gradient(145deg, #f0ddc9, #d8ad91 56%, #bd816a); }.art-kaziranga { background: linear-gradient(145deg, #dfe9c8, #abc28e 56%, #6f966c); }.art-varanasi { background: linear-gradient(145deg, #f1dfc5, #d6b389 56%, #a77c6d); }.art-mumbai { background: linear-gradient(145deg, #d5e6eb, #9bbdc4 56%, #778e9c); }
+.destination-photo-credit { position: absolute; z-index: 2; right: 14px; bottom: 12px; color: white; font-size: 10px; line-height: 1.3; text-shadow: 0 1px 5px rgba(0,0,0,.8); }
+.destination-photo-credit a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.destination-photo-credit a:hover { text-decoration-thickness: 2px; }
 .destination-card-body { padding: 20px; }.destination-meta { display: flex; gap: 7px; color: var(--muted); font-size: 11px; }
 .destination-card h2 { margin: 7px 0; font-size: 24px; }.destination-card-body > p { min-height: 47px; margin-bottom: 12px; color: var(--ink-soft); font-size: 13px; }
 .highlight-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 15px; }.highlight-tags span { padding: 5px 8px; border-radius: 7px; background: var(--surface-soft); color: var(--ink-soft); font-size: 10px; }
